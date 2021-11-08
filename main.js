@@ -8,3 +8,11 @@ hamburgerMenuOpen.addEventListener('click', function(){
     }
 );
 
+
+// chiudere hamburgerMenu
+const hamburgerMenuClose = document.querySelector(".close");
+
+hamburgerMenuClose.addEventListener('click', function(){
+    document.querySelector('.hamburger-menu').classList.remove('active')
+    }
+);
