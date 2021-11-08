@@ -1,7 +1,7 @@
 // alert ("hello world")
 
 // aprire hamburgerMenu
-const hamburgerMenuOpen = document.querySelector('.header-right');
+const hamburgerMenuOpen = document.querySelector('.header-right > a');
 
 hamburgerMenuOpen.addEventListener('click', function(){
     document.querySelector('.hamburger-menu').classList.add('active')
@@ -16,3 +16,6 @@ hamburgerMenuClose.addEventListener('click', function(){
     document.querySelector('.hamburger-menu').classList.remove('active')
     }
 );
+
+
+
